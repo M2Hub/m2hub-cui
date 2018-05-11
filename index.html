@@ -16,7 +16,8 @@
         $('body').terminal(function(api) {
             return $.post('https://mavenhub-server.herokuapp.com/mvn/'+ api);
         }, {
-            prompt: 'mvn>'
+            prompt: 'mvn>',
+            greetings: 'MavenHub Console \n'
         });
     });
     
