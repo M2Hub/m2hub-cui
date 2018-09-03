@@ -1,2 +1,1 @@
-# mavenhub-cui
-Maven Hub Console
+M2Hub Console
